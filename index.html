@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/5ed3cd2c53.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+  </head>
+  <body class="content">
+    <div class="container">
+        <form id="search-form">
+          <div class="row">
+            <div class="col-8 mb-3">
+              <input
+                type="text"
+                placeholder="Enter a city"
+                class="form-control"
+                autocomplete="on"
+                id="city-input"
+              />
+            </div>
+
+            <button type="submit" class="col-2 btn btn-primary search-button">Search</button>
+          </div>
+        </form>
+        <div class="row">
+          <div class="col-8">
+            <h1>London</h1>
+          </div>
+          <div class="col-2 current-temp" id="current-temp">
+              <span class= "units" id="units">
+                <a href="#" id="celsius-link">°C </a> 
+                |
+                <a href="#" id="fahrenheit-link">°F</a>
+            </span>
+          </div>
+          <div>
+            <div class="row">
+              <div class="col-8">
+                <i class="fa-solid fa-cloud-rain rain-1"></i>
+            </div>
+            <div class="col-2">
+                <h2>Cloudy</h2>
+            </div>
+            <div>
+                <div class="row">
+                  <div class="col-8"></div>
+                  <div class="col-4 info">
+                        Last updated,<span id="date">Thursday <strong>16:00</strong></span>
+                        <br>
+                        Precipitation <strong>17%</strong>
+                        <br>
+                        Humidity <strong>91%</strong> 
+                        <br>
+                        Wind <strong>7 mph</strong>
+
+                    </div>
+    
+                </div>
+            </div>
+            <br>
+            <div>
+              <div class="row week-ahead">
+              <div class="col-2 day1">
+                        <strong>Thurs</strong>
+                        <br>
+                        <div class="ahead-temp">
+                        11°C / 4°C
+                    </div>
+                        <br>
+                        <i class="fa-solid fa-cloud-rain rain-2"></i>
+
+                    </div>
+                    <div class="col-2 day2">
+                        <strong>Fri</strong>
+                        <br>
+                        <div class="ahead-temp">
+                        6°C / -2°C
+                        </div>
+                        <br>
+                        <i class="fa-solid fa-snowflake snow"></i>
+                    </div>
+                    <div class="col-2 day3">
+                        <strong>Sat</strong>
+                        <br>
+                        <div class="ahead-temp">
+                        7°C / 4°C
+                        </div>
+                        <br>
+                        <i class="fa-solid fa-cloud-sun cloud-sun"></i>
+                    </div>
+                    <div class="col-2 day4">
+                        <strong>Sun</strong>
+                        <br>
+                        <div class="ahead-temp">
+                        13°C / 11°C
+                        </div>
+                        <br>
+                        <i class="fa-solid fa-cloud-showers-heavy shower"></i>
+                    </div>
+                    <div class="col-2 day5">
+                        <strong>Mon</strong>
+                        <br>
+                        <div class="ahead-temp">
+                        12°C / 4°C 
+                    </div>
+                        <br>
+                        <i class="fa-solid fa-cloud-showers-heavy shower"></i>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="src/index.js">
+      </script>
+  </body>
+</html>
