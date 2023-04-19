@@ -45,3 +45,6 @@ h1 {
 .current-temp {
   font-size: 38px;
 }
+.container {
+  border: 1px;
+}
