@@ -1,0 +1,47 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+form {
+  margin: 15px 0px 7px 0px;
+  border: 2px;
+}
+h1 {
+  font-size: 38px;
+}
+.units {
+  font-size: 38px;
+}
+.search-button {
+  width: 100px;
+  height: 38px;
+}
+.info {
+  padding: 0px 12px 10px 12px;
+  color: #707579;
+}
+.ahead-temp {
+  color: #707579;
+}
+.rain-1 {
+  font-size: 55px;
+  color: #3098f5;
+}
+.rain-2 {
+  font-size: 30px;
+  color: #3098f5;
+}
+.snow {
+  font-size: 30px;
+  color: #32c4f5;
+}
+.cloud-sun {
+  font-size: 30px;
+  color: #f0c139;
+}
+.shower {
+  font-size: 30px;
+  color: #3098f5;
+}
+.current-temp {
+  font-size: 38px;
+}
