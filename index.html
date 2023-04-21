@@ -18,117 +18,120 @@
       crossorigin="anonymous"
     ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="content">
     <div class="container">
-        <form id="search-form">
-          <div class="row">
-            <div class="col-8 mb-3">
-              <input
-                type="text"
-                placeholder="Enter a city"
-                class="form-control"
-                autocomplete="on"
-                id="city-input"
-              />
-            </div>
-            <div class="col-4">
-            <button type="submit" class="col-2 btn btn-primary search-button">Search</button>
+      <form id="search-form">
+        <div class="row">
+          <div class="col-8 mb-3">
+            <input
+              type="text"
+              placeholder="Enter a city"
+              class="form-control"
+              autocomplete="on"
+              id="city-input"
+            />
+          </div>
+          <div class="col-4">
+            <button type="submit" class="col-2 btn btn-primary search-button">
+              Search
+            </button>
             <span class="col-2">
-              <button type="click" class="btn btn-success position-button" id="current-position">Current</button>
+              <button
+                type="click"
+                class="btn btn-success position-button"
+                id="current-position"
+              >
+                Current
+              </button>
             </span>
           </div>
-          </div>
-        </form>
-        <div class="row">
-          <div class="col-8">
-            <h1>London</h1>
-          </div>
-          <div class="col-2 current-temp" id="current-temp">
-               11°C 
-          </div>
-          <div>
-            <div class="row">
-              <div class="col-8">
-                <i class="fa-solid fa-cloud-rain rain-1"></i>
+        </div>
+      </form>
+      <div class="row">
+        <div class="col-8">
+          <h1>London</h1>
+        </div>
+        <div class="col-2 current-temp" id="current-temp">11°C</div>
+        <div>
+          <div class="row">
+            <div class="col-8">
+              <i class="fa-solid fa-cloud-rain rain-1"></i>
             </div>
             <div class="col-2">
-                <h2 id="temperature-description">Cloudy</h2>
+              <h2 id="temperature-description">Cloudy</h2>
             </div>
             <div>
-                <div class="row">
-                  <div class="col-8"></div>
-                  <div class="col-4 info">
-                        Last updated,<span id="date">Thursday <strong>16:00</strong></span>
-                        <br>
-                        Precipitation <strong>17%</strong>
-                        <br>
-                        Humidity <span id="humidity"><strong>91%</strong></span> 
-                        <br>
-                        Wind <span id="wind-speed"><strong>7 mph</strong></span>
-
-                    </div>
-    
+              <div class="row">
+                <div class="col-8"></div>
+                <div class="col-4 info">
+                  Last updated,<span id="date"
+                    >Thursday <strong>16:00</strong></span
+                  >
+                  <br />
+                  Precipitation <strong>17%</strong>
+                  <br />
+                  Humidity <span id="humidity"><strong>91%</strong></span>
+                  <br />
+                  Wind <span id="wind-speed"><strong>7 mph</strong></span>
                 </div>
+              </div>
             </div>
-            <br>
+            <br />
             <div>
               <div class="row week-ahead">
-              <div class="col-2 day1">
-                        <strong>Thurs</strong>
-                        <br>
-                        <div class="ahead-temp">
-                        11°C / 4°C
-                    </div>
-                        <br>
-                        <i class="fa-solid fa-cloud-rain rain-2"></i>
-
-                    </div>
-                    <div class="col-2 day2">
-                        <strong>Fri</strong>
-                        <br>
-                        <div class="ahead-temp">
-                        6°C / -2°C
-                        </div>
-                        <br>
-                        <i class="fa-solid fa-snowflake snow"></i>
-                    </div>
-                    <div class="col-2 day3">
-                        <strong>Sat</strong>
-                        <br>
-                        <div class="ahead-temp">
-                        7°C / 4°C
-                        </div>
-                        <br>
-                        <i class="fa-solid fa-cloud-sun cloud-sun"></i>
-                    </div>
-                    <div class="col-2 day4">
-                        <strong>Sun</strong>
-                        <br>
-                        <div class="ahead-temp">
-                        13°C / 11°C
-                        </div>
-                        <br>
-                        <i class="fa-solid fa-cloud-showers-heavy shower"></i>
-                    </div>
-                    <div class="col-2 day5">
-                        <strong>Mon</strong>
-                        <br>
-                        <div class="ahead-temp">
-                        12°C / 4°C 
-                    </div>
-                        <br>
-                        <i class="fa-solid fa-cloud-showers-heavy shower"></i>
-                    </div>
+                <div class="col-2 day1">
+                  <strong>Thurs</strong>
+                  <br />
+                  <div class="ahead-temp">11°C / 4°C</div>
+                  <br />
+                  <i class="fa-solid fa-cloud-rain rain-2"></i>
                 </div>
+                <div class="col-2 day2">
+                  <strong>Fri</strong>
+                  <br />
+                  <div class="ahead-temp">6°C / -2°C</div>
+                  <br />
+                  <i class="fa-solid fa-snowflake snow"></i>
+                </div>
+                <div class="col-2 day3">
+                  <strong>Sat</strong>
+                  <br />
+                  <div class="ahead-temp">7°C / 4°C</div>
+                  <br />
+                  <i class="fa-solid fa-cloud-sun cloud-sun"></i>
+                </div>
+                <div class="col-2 day4">
+                  <strong>Sun</strong>
+                  <br />
+                  <div class="ahead-temp">13°C / 11°C</div>
+                  <br />
+                  <i class="fa-solid fa-cloud-showers-heavy shower"></i>
+                </div>
+                <div class="col-2 day5">
+                  <strong>Mon</strong>
+                  <br />
+                  <div class="ahead-temp">12°C / 4°C</div>
+                  <br />
+                  <i class="fa-solid fa-cloud-showers-heavy shower"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <script src="src/index.js">
-      </script>
+    </div>
+    <div class="footer">
+      <a href="https://github.com/sneharoy-14/weather-app">
+        Open-source code
+      </a>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
-
