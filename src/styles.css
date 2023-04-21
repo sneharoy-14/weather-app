@@ -8,6 +8,13 @@ form {
 h1 {
   font-size: 38px;
 }
+.container {
+  border: 1px solid #dadde1;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 900px;
+}
 .units {
   font-size: 38px;
 }
@@ -44,7 +51,4 @@ h1 {
 }
 .current-temp {
   font-size: 38px;
-}
-.container {
-  border: 1px;
 }
