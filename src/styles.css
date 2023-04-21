@@ -52,3 +52,7 @@ h1 {
 .current-temp {
   font-size: 38px;
 }
+.footer {
+  text-align: center;
+  margin: 0 auto;
+}
